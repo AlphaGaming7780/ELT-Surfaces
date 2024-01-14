@@ -1,5 +1,5 @@
-# ELT - Assets
-An extension for ExtraLandscapingTools that add a bunch of assets that can be useful for detailing/landscaping your cities.
+# ELT - Surfaces
+An extension for ExtraLandscapingTools that add a bunch of custom surfaces that can be useful for detailing/landscaping your cities.
 
 > [!IMPORTANT]  
 > We're in the early stages of C:S2 modding and the tooling is not ready yet so please take this mod as it is and accept any issue.

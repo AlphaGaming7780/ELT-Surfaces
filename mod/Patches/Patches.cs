@@ -1,9 +1,6 @@
 ﻿using HarmonyLib;
-using Game.SceneFlow;
 using System.IO;
 using System.Reflection;
-using System.Collections.Generic;
-using Game.UI;
 using Game;
 using ExtraLandscapingTools;
 using System.IO.Compression;
@@ -38,36 +35,8 @@ namespace ELT_Surfaces.Patches
 	{
         public static void Prefix( PrefabSystem __instance)
 		{
-			// CustomSurfaces.AddCustomSurfacesFolder(GameSystemBase_OnCreate.resources+"\\CustomSurfaces");
-			CustomSurfaces.CallOnCustomSurfaces += Surfaces.LoadCustomSurfaces;
-		}
-	}
-
-	[HarmonyPatch(typeof(GameManager), "InitializeThumbnails")]
-	internal class GameManager_InitializeThumbnails
-	{	
-		static readonly string IconsResourceKey = $"{MyPluginInfo.PLUGIN_NAME.ToLower()}";
-
-		public static readonly string COUIBaseLocation = $"coui://{IconsResourceKey}";
-
-		static void Prefix(GameManager __instance)
-		{
-
-			ELT.RegisterELTExtension(Assembly.GetExecutingAssembly().FullName, ELT.ELT_ExtensionType.Surfaces);
-
-			List<string> pathToIconToLoad = [GameSystemBase_OnCreate.resources];
-
-			var gameUIResourceHandler = (GameUIResourceHandler)GameManager.instance.userInterface.view.uiSystem.resourceHandler;
-			
-			if (gameUIResourceHandler == null)
-			{
-				UnityEngine.Debug.LogError("Failed retrieving GameManager's GameUIResourceHandler instance, exiting.");
-				return;
-			}
-			
-			gameUIResourceHandler.HostLocationsMap.Add(
-				IconsResourceKey, pathToIconToLoad
-			);
+			CustomSurfaces.AddCustomSurfacesFolder(GameSystemBase_OnCreate.resources+"\\CustomSurfaces");
+			// CustomSurfaces.CallOnCustomSurfaces += Surfaces.LoadCustomSurfaces;
 		}
 	}
 }

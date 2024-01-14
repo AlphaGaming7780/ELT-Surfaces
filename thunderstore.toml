@@ -3,7 +3,7 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "TritonSupreme"
-name = "ELT - Assets"
+name = "ELT - Surfaces"
 versionNumber = "0.1.0"
 description = "This mod aims to add features and improve existing ones for the game's landscaping tool."
 websiteUrl = "https://github.com/AlphaGaming7780/ExtraLandscapingTools"
