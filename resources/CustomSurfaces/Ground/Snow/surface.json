@@ -1,0 +1,19 @@
+{
+    "Float": {
+        "colossal_UVScale": 0.25
+    },
+    "Vector": {
+        "colossal_EdgeFadeRange": {
+            "x": 0.6,
+            "y": 0.4,
+            "z": 0,
+            "w": 0
+        },
+        "colossal_EdgeNoise": {
+            "x": 0.5,
+            "y": 0.7,
+            "z": 0,
+            "w": 0
+        }
+    }
+}

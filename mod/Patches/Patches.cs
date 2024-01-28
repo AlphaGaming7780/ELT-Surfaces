@@ -2,15 +2,14 @@
 using System.IO;
 using System.Reflection;
 using Game;
-using ExtraLandscapingTools;
 using System.IO.Compression;
-using Game.Prefabs;
+using Game.SceneFlow;
 
 namespace ELT_Surfaces.Patches
 {
 
-	[HarmonyPatch(typeof(GameSystemBase), "OnCreate")]
-	internal class GameSystemBase_OnCreate
+	[HarmonyPatch(typeof(GameManager), "Awake")]
+	internal class GameManager_Awake
 	{
 
 		static readonly string pathToZip = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)+"\\resources.zip";
@@ -27,16 +26,9 @@ namespace ELT_Surfaces.Patches
 				ZipFile.ExtractToDirectory(pathToZip, Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
 				File.Delete(pathToZip);
 			}
-		}
-	}
-
-	[HarmonyPatch(typeof(PrefabSystem), "OnCreate")]
-	public class PrefabSystem_OnCreate
-	{
-        public static void Prefix( PrefabSystem __instance)
-		{
-			CustomSurfaces.AddCustomSurfacesFolder(GameSystemBase_OnCreate.resources+"\\CustomSurfaces");
-			// CustomSurfaces.CallOnCustomSurfaces += Surfaces.LoadCustomSurfaces;
+			ExtraLandscapingTools.CustomSurfaces.AddCustomSurfacesFolder(resources+"\\CustomSurfaces");
 		}
 	}
 }
+
+
