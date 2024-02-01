@@ -11,7 +11,7 @@
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<AssemblyName>ELT_Surfaces</AssemblyName>
 		<RootNamespace>ELT_Surfaces</RootNamespace>
-		<Description>This ELT Extension give the player acces to the cool hidden game object.</Description>
+		<Description>An extension for ExtraLandscapingTools that add a bunch of custom surfaces that can be useful for detailing/landscaping your cities.</Description>
 		<Version>0.1.0</Version>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<LangVersion>preview</LangVersion>
