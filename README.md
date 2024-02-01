@@ -14,7 +14,7 @@ An extension for ExtraLandscapingTools that add a bunch of custom surfaces that 
 
 ## Instalation 
 
-You can download this mod directly for this GitHub or from the [C:S2 Thunderstorm mod page](https://thunderstore.io/c/cities-skylines-ii/p/TritonSupreme/ELT_-_Surfaces/).
+You can download this mod directly for this GitHub or from the [C:S2 Thunderstorm mod page](https://thunderstore.io/c/cities-skylines-ii/p/TritonSupreme/ELT_SurfaceExtension/).
 
 If you download it from the GitHub or the Thunderstore page without using the mod manger, you need to put the folder named `ELT-Surfaces` inside the `YourGamePath/BepInEx/Plugins` folder.
 

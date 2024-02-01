@@ -3,7 +3,7 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "TritonSupreme"
-name = "[ELT] Surfaces Extension"
+name = "ELT_SurfaceExtension"
 versionNumber = "0.1.0"
 description = "An extension for ExtraLandscapingTools that add a bunch of custom surfaces that can be useful for detailing/landscaping your cities."
 websiteUrl = "https://github.com/AlphaGaming7780/ELT-Surfaces"
