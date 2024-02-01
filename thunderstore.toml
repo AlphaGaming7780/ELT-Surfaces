@@ -5,12 +5,13 @@ schemaVersion = "0.0.1"
 namespace = "TritonSupreme"
 name = "ELT - Surfaces"
 versionNumber = "0.1.0"
-description = "This mod aims to add features and improve existing ones for the game's landscaping tool."
-websiteUrl = "https://github.com/AlphaGaming7780/ExtraLandscapingTools"
+description = "An extension for ExtraLandscapingTools that add a bunch of custom surfaces that can be useful for detailing/landscaping your cities."
+websiteUrl = "https://github.com/AlphaGaming7780/ELT-Surfaces"
 containsNsfwContent = false
 
 [package.dependencies]
 BepInEx-BepInExPack = "5.4.2100"
+TritonSupreme-ExtraLandscapingTools = "0.2.0"
 # AuthorName-PackageName = "0.1.0"
 
 [build]

@@ -4,7 +4,7 @@ An extension for ExtraLandscapingTools that add a bunch of custom surfaces that 
 > [!IMPORTANT]  
 > We're in the early stages of C:S2 modding and the tooling is not ready yet so please take this mod as it is and accept any issue.
 
-### -> [Changelog](https://github.com/AlphaGaming7780/ExtraLandscapingTools/blob/main/CHANGELOG.md)
+### -> [Changelog](https://github.com/AlphaGaming7780/ELT-Surfaces/blob/main/CHANGELOG.md)
 
 ## Requirements
 
@@ -14,20 +14,13 @@ An extension for ExtraLandscapingTools that add a bunch of custom surfaces that 
 
 ## Instalation 
 
-You can download this mod directly for this GitHub or from the [C:S2 Thunderstorm mod page](https://github.com/AlphaGaming7780/ELT-Assets/blob/DEV/CHANGELOG.md).
+You can download this mod directly for this GitHub or from the [C:S2 Thunderstorm mod page](https://thunderstore.io/c/cities-skylines-ii/p/TritonSupreme/ELT_-_Surfaces/).
 
-If you download it from the GitHub or the Thunderstore page without using the mod manger, you need to put the folder named `ELT-Assets` inside the `YourGamePath/BepInEx/Plugins` folder.
-
-## Features
-
-
-## Feature roadmap
+If you download it from the GitHub or the Thunderstore page without using the mod manger, you need to put the folder named `ELT-Surfaces` inside the `YourGamePath/BepInEx/Plugins` folder.
 
 
 # Acknowledgment
-- [CynicalBusiness](https://lab.vevox.io/games/cities-skylines-2/surface-tools/-/tree/develop?ref_type=heads) For its surface tools which help me a lot to make this mod.
-- [CityRat](https://thunderstore.io/c/cities-skylines-ii/p/CityRat/) For all the custom icons.
-- [optimus-code](https://thunderstore.io/c/cities-skylines-ii/p/Cities2Modding/)
+- [CityRat](https://thunderstore.io/c/cities-skylines-ii/p/CityRat/)
 
 # Community
 Looking to discuss Cities: Skylines 2 Unofficial modding together with other modders? You're welcome to join [Cities 2 Modding Discord](https://discord.gg/vd7HXnpPJf) or the [Cities: Skylines Modding Discord](https://discord.gg/27CVdGFA47).
