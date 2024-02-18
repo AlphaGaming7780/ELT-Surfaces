@@ -21,5 +21,11 @@
             "z": 0,
             "w": 0
         }
-    }
+    },
+    "prefabIdentifierInfos": [
+        {
+            "m_Name": "Asphalt 002",
+            "m_Type": "SurfacePrefab"
+        }
+    ]
 }

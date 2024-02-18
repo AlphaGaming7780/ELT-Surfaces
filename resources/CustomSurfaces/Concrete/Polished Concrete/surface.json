@@ -1,4 +1,7 @@
 {
+    "Float": {
+        "ELT_SnowAmount": 0
+    },
     "Vector": {
         "colossal_EdgeFadeRange": {
             "x": 0.5,
@@ -12,5 +15,11 @@
             "z": 0,
             "w": 0
         }
-    }
+    },
+    "prefabIdentifierInfos": [
+        {
+            "m_Name": "Polished Concrete",
+            "m_Type": "SurfacePrefab"
+        }
+    ]
 }

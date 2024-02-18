@@ -1,5 +1,12 @@
 {
     "Float": {
         "colossal_UVScale": 0.25
-    }
+    },
+    "Vector": {},
+    "prefabIdentifierInfos": [
+        {
+            "m_Name": "Wet Sand",
+            "m_Type": "SurfacePrefab"
+        }
+    ]
 }

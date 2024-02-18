@@ -15,5 +15,11 @@
             "z": 0,
             "w": 0
         }
-    }
+    },
+    "prefabIdentifierInfos": [
+        {
+            "m_Name": "Sand",
+            "m_Type": "SurfacePrefab"
+        }
+    ]
 }
